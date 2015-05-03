@@ -1,0 +1,77 @@
+/* CSS Document */
+
+.join-kv{
+  height: 511px;
+  background:#7fb1b5 url(../images/join-kv.jpg) no-repeat center center; 
+}
+
+
+.jobs-wrap{
+  color:#999898;
+  /* font-size: 16px; */
+  padding-bottom: 50px;
+}
+
+.jobs{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.jobs h2{
+  height: 136px;
+  line-height: 136px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: 1px solid #cacaca;
+}
+
+.jobs h2 .en{
+  font-size: 40px;
+  color: #4d4d4d;
+}
+
+.jobs h2 .cn{
+  font-size: 30px;
+  color: #1a1a1a;
+}
+
+.jobs li{
+  width: 50%;
+  float: left;
+  border-bottom: 1px solid #cacaca;
+}
+
+.job-item{
+  padding: 30px;
+}
+
+.job-item h3{
+  font-size: 24px;
+  font-weight: 400;
+  color: #24a9c4;
+}
+
+.job-item .sub-title{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #030303;
+}
+
+.m-t-20{ margin-top: 20px; }
+.m-t-15{ margin-top: 15px; }
+
+.send-email{
+  text-align: center;
+  font-size: 20px;
+  line-height: 80px;
+  color: #4e4d4d;
+}
+
+.send-email span{
+  padding-left:40px;
+  background: url(../images/send-email.png) left center no-repeat; 
+}
+
+.send-email a{
+  color: #53b8ce;
+}

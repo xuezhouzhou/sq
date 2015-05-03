@@ -1,0 +1,47 @@
+/* CSS Document */
+.header-wrap{
+	height:90px;
+  border-bottom: 1px solid #f2f2f2;
+  color: #908f8f;
+}
+
+.header-wrap a{
+  color: #908f8f;
+}
+
+.header{
+  width: 1080px;
+  height:90px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header .logo{
+  position: absolute;
+  top:30px;
+  width: 85px;
+  height: 85px;
+  background-image: url(../images/logo.png);
+}
+
+.header .nav{
+  width: 540px;
+  height: 90px;
+  float: right;
+}
+
+.header .nav a{
+  text-align: center;
+  font-size: 18px;
+  width: 90px;
+  height: 88px;
+  line-height: 88px;
+  float: left;
+  display: block;
+  border-bottom: 2px solid #fff;
+}
+
+.header .nav a:hover,
+.header .nav a.cur{
+  border-bottom: 2px solid #1da3bf;
+}

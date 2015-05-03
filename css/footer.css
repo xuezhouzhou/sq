@@ -1,0 +1,33 @@
+/* CSS Document */
+.footer-wrap{
+  background-color:#2a2a2a;
+}
+
+.footer{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.footer h2{
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  color: 24px;
+  line-height: 200px;
+}
+
+.footer h2 .en{
+  font-size: 40px;
+}
+
+.footer h2 .cn{
+  font-size: 30px;
+}
+
+.contact div{
+  float: left;
+}
+
+.contact .l{
+  text-align: right;
+}
