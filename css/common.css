@@ -6,7 +6,7 @@
 
 body{
   font-size: 14px;
-  line-height: 2em;
+  line-height: 1.5em;
   font-family: 'microsoft yahei',"Hiragino Sans GB","Hiragino Sans GB W3";
 }
 
@@ -24,4 +24,9 @@ a{
   height:0;
   clear:both;
   visibility:hidden;
+}
+
+input,textarea{
+  outline: none;
+  font-family: 'microsoft yahei',"Hiragino Sans GB","Hiragino Sans GB W3";
 }

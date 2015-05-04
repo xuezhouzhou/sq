@@ -1,6 +1,7 @@
-/* CSS Document */
 .footer-wrap{
   background-color:#2a2a2a;
+  overflow: hidden;
+  padding-bottom: 200px;
 }
 
 .footer{
@@ -12,8 +13,8 @@
   font-weight: 400;
   color: #fff;
   text-align: center;
-  color: 24px;
-  line-height: 200px;
+  height: 230px;
+  line-height: 230px;
 }
 
 .footer h2 .en{
@@ -24,10 +25,223 @@
   font-size: 30px;
 }
 
-.contact div{
+
+.contact{
+  height: 105px;
+}
+
+.contact li{
+  display: block;
   float: left;
+  height: 105px;
+}
+
+.contact li.l{
+  padding-right: 30px;
+  width: 470px;
+  border-right: 1px solid #555554;
+  text-align: right;
+}
+
+.contact li.m{
+  border-right: 1px solid #555554;
+  padding-left: 20px;
+  width: 260px;
+  font-size: 14px;
+}
+
+
+.contact li.r{
+  padding-left: 30px;
+  width: 267px;
+}
+
+.contact li.m a{
+  color: #fff;
+}
+
+.contact .phone{
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  color: #fff;
+  position: relative;
+}
+
+.contact .phone i{
+  display: block;
+  position: absolute;
+  top:10px;
+  left:144px;
+  width: 40px;
+  height: 40px;
+  background:url(../images/icon-phone.png) no-repeat center center;
+}
+
+.addr-cn,
+.addr-en{
+  color: #959595;
+}
+
+.addr-cn{
+  font-size: 20px;
+}
+
+.addr-en{
+  font-size: 13px;
+}
+
+.company-name{
+  color: #54bbcf;
+  font-size: 16px;
+}
+
+.mail-business,
+.mail-jobs{
+  color: #fff;
+}
+
+.mail-business{
+  margin-top: 20px;
+}
+
+.mail-jobs{
+  margin-top: 10px;
+}
+
+.contact-icon{
+  width: 110px;
+  height: 34px;
+  line-height: 34px;
+  position: relative;
+  text-indent: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-icon i{
+  display: block;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+}
+
+.weibo{
+  margin-top: 5px;
+}
+
+.weixin{
+  margin-top: 20px;
+}
+
+.weibo i{
+  background: url(../images/icon-weibo.png) no-repeat center center;
+}
+
+.weixin i{
+  background: url(../images/icon-weixin.png) no-repeat center center;
+}
+
+
+
+.copyright{
+  margin-top: 110px;
+  height: 170px;
+}
+
+.copyright li{
+  display: block;
+  float: left;
+  height: 170px;
+}
+
+.copyright li.l{
+  padding-right: 30px;
+  width: 470px;
+  border-right: 1px solid #555554;
+  text-align: right;
+  color: #979797;
+}
+
+.copyright li.r{
+  width: 579px;
+  position: relative;
+}
+
+.copyright .r .text{
+  position: absolute;
+  border:1px solid #6c6c6c;
+  font-size: 14px;
+  color: #7d7d7d;
+  background-color:#2a2a2a;
+  padding: 14px;
+  left:20px;
+  width: 190px; 
+}
+
+.copyright .r .text-phone{
+  top:60px;
+}
+
+.copyright .r .text-email{
+  top:120px;
+}
+
+
+.copyright .r .textarea{
+  position: absolute;
+  left: 250px;
+  border: 1px solid #6c6c6c;
+  background-color: #2a2a2a;
+  width: 299px;
+  height: 80px;
+  font-size: 14px;
+  padding: 14px;
+  color: #7d7d7d;
+}
+
+.copyright .r .btn-send{
+  position: absolute;
+  font-size: 18px;
+  left: 370px;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  width: 100px;
+  color: #1da3bf;
+  text-align: center;
+  background: url(../images/icon-jt-right.png) no-repeat left center;
+  top: 120px;
+  cursor: pointer;
+  -webkit-transition:0.2s;
+}
+
+.copyright .r .btn-send:hover{
+  background-position: right center; 
+}
+
+
+
+
+/* .footer-wrap{
+  background-color:#2a2a2a;
+}
+
+.footer{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+
+
+
+
+.contact li{
+  float: left;
+  height: 100px;
 }
 
 .contact .l{
+  border-right: 1px solid #555554;
   text-align: right;
-}
+} */
