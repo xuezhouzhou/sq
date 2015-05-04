@@ -5,9 +5,11 @@
 }
 
 body{
-  font-size: 14px;
+  font:14px 'microsoft yahei',"Hiragino Sans GB","Hiragino Sans GB W3";
+}
+
+body,div,p{
   line-height: 1.5em;
-  font-family: 'microsoft yahei',"Hiragino Sans GB","Hiragino Sans GB W3";
 }
 
 li{
@@ -30,3 +32,4 @@ input,textarea{
   outline: none;
   font-family: 'microsoft yahei',"Hiragino Sans GB","Hiragino Sans GB W3";
 }
+

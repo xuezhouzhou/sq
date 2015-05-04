@@ -1,7 +1,7 @@
 .footer-wrap{
   background-color:#2a2a2a;
   overflow: hidden;
-  padding-bottom: 200px;
+  padding-bottom: 170px;
 }
 
 .footer{
@@ -142,8 +142,6 @@
   background: url(../images/icon-weixin.png) no-repeat center center;
 }
 
-
-
 .copyright{
   margin-top: 110px;
   height: 170px;
@@ -187,7 +185,6 @@
   top:120px;
 }
 
-
 .copyright .r .textarea{
   position: absolute;
   left: 250px;
@@ -213,35 +210,13 @@
   background: url(../images/icon-jt-right.png) no-repeat left center;
   top: 120px;
   cursor: pointer;
-  -webkit-transition:0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .copyright .r .btn-send:hover{
   background-position: right center; 
 }
-
-
-
-
-/* .footer-wrap{
-  background-color:#2a2a2a;
-}
-
-.footer{
-  width: 1080px;
-  margin: 0 auto;
-}
-
-
-
-
-
-.contact li{
-  float: left;
-  height: 100px;
-}
-
-.contact .l{
-  border-right: 1px solid #555554;
-  text-align: right;
-} */
