@@ -8,7 +8,7 @@ body{
   font:14px 'microsoft yahei',"Hiragino Sans GB","Hiragino Sans GB W3";
 }
 
-body,div,p{
+body,div,p,h1,h2,h3{
   line-height: 1.5em;
 }
 
@@ -32,4 +32,3 @@ input,textarea{
   outline: none;
   font-family: 'microsoft yahei',"Hiragino Sans GB","Hiragino Sans GB W3";
 }
-

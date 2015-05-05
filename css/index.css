@@ -120,3 +120,121 @@
   text-indent: -50px; 
 }
 /* 项目案例 end */
+
+
+
+/* 服务 start */
+.service-wrap{
+  padding-top: 80px;
+  background-color: #f2f2f2;
+}
+
+.service{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.service h2{
+  font-weight: 400;
+  line-height: 80px;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+.service h2 .en{
+  font-size: 40px; 
+}
+
+.service h2 .cn{
+  font-size: 30px;
+}
+
+.service .sub-title{
+  text-align: center;
+  font-size: 21px;
+  color: #a4a4a4;
+  margin: 5px 0 25px 0;  
+}
+
+.service ul {
+  width: 1080px;
+  height: 420px;
+  position: relative;
+  margin-top: 90px;
+}
+
+.service ul li {
+  width: 25%;
+  height: 420px;
+  position: absolute;
+}
+
+.service ul li.user{
+  left:0;
+}
+
+.service ul li.ux{
+  left:25%;
+}
+
+.service ul li.ui{
+  left:50%;
+}
+
+.service ul li.code{
+  left:75%;
+}
+
+.service .icon{
+  position: absolute;
+  width: 191px;
+  height: 191px;
+  left: 50%;
+  margin-left: -95.5px;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.service .user .icon{
+  background: url(../images/icon-user.png) no-repeat center center;
+}
+
+.service .ux .icon{
+  background: url(../images/icon-ux.png) no-repeat center center;
+}
+
+.service .ui .icon{
+  background: url(../images/icon-ui.png) no-repeat center center;
+}
+
+.service .code .icon{
+  background: url(../images/icon-code.png) no-repeat center center;
+}
+
+.service li h3{
+  font-weight: 400;
+  font-size: 21px;
+  text-align: center;
+  color: #3c3b3b;
+  margin-top: 250px;
+}
+
+.service li p{
+  margin-top: 13px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 2em;
+  color: #a3a3a3;
+}
+
+.service-banner{
+  margin-top: 87px;
+  height: 218px;
+  background: url(../images/service-banner.jpg) no-repeat center center;
+}
+/* 服务 end */
+
+
+/* client 我们的客户 start */
+
+/* client 我们的客户 end */
