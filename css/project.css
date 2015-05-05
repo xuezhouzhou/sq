@@ -1,0 +1,140 @@
+.project-wrap{
+  height: 500px;
+  padding-top: 50px;
+}
+
+.project-select{
+  width: 1080px;
+  margin: 0 auto;
+  border-bottom: 1px solid #cacaca;
+  height: 42px;
+  position: relative;
+}
+
+.project-select .select1{
+  width: 170px;
+  height: 42px;
+  position: absolute;
+  cursor: pointer;
+  float: left;
+}
+
+.project-select .select1 .current{
+  width: 170px;
+  color: #010101;
+  font-size: 20px;
+  height: 42px;
+  line-height: 42px;
+}
+
+.project-select .select1 .current i{
+  display: block;
+  width: 19px;
+  height: 11px;
+  position: absolute;
+  background: url(../images/icon-jt-bottom.png) no-repeat ;
+  right: 0;
+  top:16px;
+}
+
+.project-select .select1 .select-item{
+  position: absolute;
+  top:42px;
+  width: 168px;
+  border:1px solid #cacaca;
+  display: none;
+}
+
+.project-select .select1 .select-item a{
+  display: block;
+  font-size: 18px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #908f8f;
+}
+
+.project-select .select1 .select-item a:hover{
+  color: #32bbd6;
+}
+
+
+.project-select .select2{
+  height: 42px;
+  cursor: pointer;
+  float: right;
+  padding-right: 80px;
+}
+
+.select2 .item-wrap a{
+  display: block;
+  height: 42px;
+  line-height: 42px;
+  float: left;
+  padding:0 15px;
+  font-size: 16px;
+  color: #908f8f; 
+}
+
+.select2 .item-wrap a:hover,
+.select2 .item-wrap a.cur{
+  color: #32bbd6;
+}
+
+
+.item-more{
+  position: absolute;
+  right: 0;
+  top:0;
+  width: 80px;
+  height: 42px;
+}
+
+.item-more .current{
+  position: absolute;
+  right: 0;
+  top:0;
+  width: 80px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  text-indent: 15px;
+  color: #908f8f;
+}
+
+.item-more .current i{
+  display: block;
+  width: 15px;
+  height: 9px;
+  position: absolute;
+  background: url(../images/icon-jt2-bottom.png) no-repeat ;
+  right: 0;
+  top:18px;
+}
+
+.item-more .select-item{
+  width: 80px;
+  position: absolute;
+  top:42px;
+  right: 0;
+  border:1px solid #cacaca;
+  display: none;
+}
+
+.item-more .select-item a{
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #908f8f;
+}
+
+.item-more .select-item a:hover{
+  color: #32bbd6;
+}
+
+
+.project-list{
+  width: 1117px;
+  margin: 0 auto;
+}

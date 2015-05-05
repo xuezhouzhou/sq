@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>案例</title>
+<link href="images/logo.png" rel="shortcut icon">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/project.css">
+<link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+<!-- header start -->
+<div class="header-wrap">
+  <div class="header">
+    <div class="logo"></div>
+    <div class="nav">
+      <a href="index.html">首页</a>
+      <a href="project.html" class="cur">案例</a>
+      <a href="">服务</a>
+      <a href="">关于</a>
+      <a href="">动态</a>
+      <a href="join.html">加入</a>
+    </div>
+  </div>  
+</div>
+<!-- header end -->
+
+<div class="project-wrap">
+  <div class="project-select">
+    <div class="select1 js-select">
+      <div class="current">交互界面设计<i></i></div>
+      <div class="select-item js-item">
+        <a href="">交互界面设计</a>
+        <a href="">标识产品设计</a>
+        <a href="">品牌视觉设计</a>
+        <a href="">用户市场调研</a>
+      </div>
+    </div>
+
+    <div class="select2">
+      <div class="item-wrap">
+        <a href="" class="cur">医疗健康</a>
+        <a href="">生活服务</a>
+        <a href="">微信APP</a>
+        <a href="">体育</a>
+        <a href="">企业门户</a>
+      </div>
+      <div class="item-more js-select">
+        <div class="current">更多<i></i></div>
+        <div class="select-item js-item">
+          <a href="">生活服务</a>
+          <a href="">微信APP</a>
+          <a href="">体育</a>
+          <a href="">企业门户</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ul class="project-list clear">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+
+<!-- footer start -->
+<div class="footer-wrap">
+  <div class="footer">
+    <h2><span class="en">Contact&nbsp;</span><span class="cn">/&nbsp;联系我们</span></h2>
+    <ul class="contact clear">
+      <li class="l">
+        <div class="phone"><i></i>021-60481664</div>
+        <div class="addr-cn">上海市杨浦区国定东路200号1号楼1108室</div>
+        <div class="addr-en">Shanghai City, Yangpu District National Road No. 200 Building 1 room 1108</div>
+      </li>
+      <li class="m">
+        <p class="company-name">尚器设计</p>
+        <p class="mail-business">商务&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:chingedesign@gmail.com">chingedesign@gmail.com</a></p>
+        <p class="mail-jobs">招聘&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hrchingedesign@gmail.com">hrchingedesign@gmail.com</a></p>
+      </li>
+      <li class="r">
+        <div class="weibo contact-icon"><i></i>尚器设计</div>
+        <div class="weixin contact-icon"><i></i>尚器设计</div>
+      </li>
+    </ul>
+
+    <ul class="copyright clear">
+      <li class="l">
+        <p>Copyright © 2013 ChingeDesign Co,Ltd All Rights Reserved</p>
+        <p>版权所有 © 上海尚器设计创意有限公司 保留所有权利</p>
+        <p>沪ICP备11016142号</p>
+      </li>
+      <li class="r">
+        <input type="text" class="text text-company" placeholder="称呼/公司" />
+        <input type="text" class="text text-phone" placeholder="手机" />
+        <input type="text" class="text text-email" placeholder="邮箱" /> 
+        <textarea class="textarea" placeholder="合作需求：产品描述，功能需求，平台需要等"></textarea>
+        <a class="btn-send">发送</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- footer end -->
+<script src="http://cdn.bootcss.com/jquery/1.7.1/jquery.min.js"></script>
+<script>
+(function($){
+  $('.js-select').on('mouseenter',function(){
+    $(this).find('.js-item').show();
+  }).on('mouseleave',function(){
+    $(this).find('.js-item').hide();
+  });
+
+})(jQuery);
+</script>
+</body>
+</html>
